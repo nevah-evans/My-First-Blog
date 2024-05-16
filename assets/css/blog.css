@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    :root{
+    nav{
+        width: 100%;
+        padding: 30px;
+        border-bottom:10px double black;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .btns{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    button{
+        background-color: black;
+        color: white;
+        width: 70px;
+        height: 35px;
+    }
+
+    #dkModeToggle{
+        border: 2px solid black;
+        padding: 2px;
+        border-radius: 5px;
+    }
+
+    .ld-mode{
+        padding: 5px;
+    }
+
+    footer{
+        border-top: 10px double black;
+        padding: 20px;        
+    }
+
+    #made-with{
+        display: flex;
+        justify-content: center;
+    }
+    #portfolio, #blog, #email{
+        padding: 5px;
+    }
+
+      #blog-container div{
+        position: relative;
+        padding: 30px;
+        margin: 10px;
+        border: 2px solid black;
+        height: 150px;
+        overflow-y: auto;
+    }
+    #title{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: medium;
+        border-bottom: 2px solid black;
+        width: 98%;
+        padding-top: 5px;
+    }
+    #content{
+        padding: 10px;
+    }
+
+    #username{
+        position: relative;
+        right: 20px;
+        top: 20px;
+    }
+}
+
+.darkmode{
+
+    nav{
+        background-color: black;
+        width: 100%;
+        padding: 30px;
+        border-bottom:10px double white;
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        color: white;
+    }
+    
+    .btns{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    button{
+        background-color: white;
+        color: black;
+        width: 70px;
+        height: 35px;
+    }
+
+    #dkModeToggle{
+        border: 2px solid white;
+        padding: 2px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .ld-mode{
+        padding: 5px;
+    }
+
+    footer{
+        background-color: black;
+        border-top: 10px double white;
+        padding: 20px;        
+    }
+
+    #made-with{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    #portfolio, #blog, #email{
+        padding: 5px;
+        color: white;
+    }
+
+main{
+    background-color: #535151;
+}
+
+    #blog-container div{
+        background-color: #535151;
+        position: relative;
+        padding: 30px;
+        margin: 10px;
+        border: 2px solid white;
+        height: 150px;
+        overflow-y: auto;
+    }
+    #title{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: medium;
+        border-bottom: 2px solid white;
+        width: 98%;
+        padding-top: 5px;
+        color: white;
+    }
+    #content{
+        padding: 10px;
+        color: white;
+
+    }
+
+    #username{
+        position: relative;
+        right: 20px;
+        top: 20px;
+        color: white;
+
+    }
+}
+

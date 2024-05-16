@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="form" href="./assets/css/form.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="ld-mode">
+            <i class="fa-solid fa-circle-half-stroke" id="dkModeToggle"></i>
+        </div>
+    </nav>
+<main>
+<aside>
+    <div class="circle">
+    <h1>My First Blog!</h1>
+    </div>
+</aside>
+<section class="form-container">
+    <div><h2>What's on your mind?</h2></div>
+
+    <form id="form">
+
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username" size="100"><br>
+
+        <label for="title">Title</label><br>
+        <input type="text" id="title" name="title" size="100"><br>
+
+        <label for="content">Content</label><br>
+        <textarea type="text" id="content" name="content" rows="4" cols="93" ></textarea><br>
+
+        <input type="submit" id= "submit" value="Submit">
+
+    </form>
+</section>
+</main>
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
+</body>
+
+</html>
